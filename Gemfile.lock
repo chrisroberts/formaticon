@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    formaticon (0.1.0)
+      xml-simple
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    xml-simple (1.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  formaticon!
