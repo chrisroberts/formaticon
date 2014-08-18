@@ -4,7 +4,7 @@ Stop re-inventing the configuration file wheel.
 
 ### Ini
 
-* `Formaticon::Helpers.ruby_to_ini(hash)`
+* `Formaticon.ruby_to_ini(hash)`
 
 Original ruby:
 
@@ -38,7 +38,7 @@ bing = "bang"
 
 ### Xml
 
-* `Formaticon::Helpers.ruby_to_xml(hash)`
+* `Formaticon.ruby_to_xml(hash)`
 
 Original ruby:
 
@@ -76,7 +76,7 @@ Formatted output:
 
 ### Erlang
 
-* `Formaticon::Helpers.ruby_to_erl(hash)`
+* `Formaticon.ruby_to_erl(hash)`
 
 Original ruby:
 
