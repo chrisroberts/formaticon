@@ -35,7 +35,7 @@ module Formaticon
 
           def ruby
             data = erl_string.dup
-            data.scan(/('?[A-Za-z0-9_\-@\.]+'?)/).flatten.sort_by(&:length).reverse.each do |string|
+            data.scan(/('?[A-Za-z0-9_\-@\.]+'?)/).flatten.sort_by(&:length).reverse.uniq.each do |string|
               unless(string.include?("'"))
                 data.gsub!(/([^A-Za-z0-9_\-@\.])#{Regexp.escape(string)}/, "\\1'#{string}'")
               end
